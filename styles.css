@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    font-family: 'Zen Dots', cursive;
+}
+#Encabezado{
+    background-color: white;
+    width: 580px;
+    height: 45px;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+#nombre{
+    width: 50px;
+    padding-left: 10px;
+    
+}
+  
+
+#opciones{
+    display:flex;
+    align-items: right;
+    width: 600px;
+    justify-content: end;
+    background-color: white;
+    margin-right: 3px;
+    float: right;
+    padding-top: 5px;
+}
+
+   
+#iconos{
+    
+    background-color: white;
+    padding: 10px;
+    
+    
+}
+#texto1{
+    float: left;
+    background-color: white;
+    width: 580px;
+    height: 25px;
+    padding: 10px;
+    
+}
+#texto2{
+    justify-content: center;
+    background-color: white;
+    width: 580px;
+    height: 175px;
+    padding: 10px;
+    
+   
+}
+div.container{
+    width: 600px;
+    margin: auto;
+     
+   
+}
+#derecha{
+    display:flex;
+    align-items: right;
+    width: 400px;
+    justify-content: end;
+    background-color: white;
+    margin-right: 3px;
+    float: right;
+    
+}
+#izquierda{
+    width: 150px;
+    float: left;
+}
