@@ -12,21 +12,27 @@
   <link rel="stylesheet" href="style.css" crossorigin="anonymous" />
   <script src="app.js"></script>
 
+
 </head>
 
 <body>
   <div class="container-fluid bg-image" style="background-image: url('https://thumbs.dreamstime.com/z/%C2%A1oh-no-2736328.jpg');
-  height: 100vh">
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; height: 625px;">
     <div class="container-fluid">
       <h1 class="mx-3 pt-5 w-50">You don´t belive what´s happen with my homework...</h1>
       <div class="container-fluid mt-5">
         <h1><strong>
-            <p id="ExcusaCompleta"></p>
+            <p class="w-50" id="ExcusaCompleta"></p>
           </strong></h1>
       </div>
-      <button class="btn btn-primary mx-3" onclick="getExcuse()">
-        <strong>Generate excuse</strong>
-      </button>
+      <div class="container">
+        <button class="btn btn-primary fixed-bottom w-25 mx-5 my-5 " onclick="getExcuse()">
+          <strong>Generate excuse</strong>
+        </button>
+      </div>
     </div>
   </div>
 </body>
