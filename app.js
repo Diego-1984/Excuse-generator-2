@@ -1,9 +1,9 @@
 const who = ["The dog", "My granma", "His turtle", "My bird"];
-const what = ["eat", "pissed", "crushed", "broked"];
+const what = ["ate it", "pissed it ", "crushed it", "broken it"];
 const when = [
   "before the class!",
   "right in time!",
-  "when I finished!",
+  "when I finished it!",
   "during my lunch!",
   "while I was praying!"
 ];
